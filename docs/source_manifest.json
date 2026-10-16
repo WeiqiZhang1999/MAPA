@@ -1,0 +1,42 @@
+{
+  "source_repository": "WeiqiZhang1999/3DmedicalDD",
+  "source_branch": "camera-ready-text",
+  "note": "Selected research implementations relocated under demo without algorithm changes. Unused latent MTT code is not included in this demo. Source hashes refer to the original research files.",
+  "files": [
+    {
+      "path": "demo/src/models3d.py",
+      "source_path": "src/models3d.py",
+      "source_sha256": "21f5326a8550f807a24d40cff49268587e461a03ae1a4505eff6881ea7cc97fb"
+    },
+    {
+      "path": "demo/scripts/train_medmnist3d_cls.py",
+      "source_path": "scripts/train_medmnist3d_cls.py",
+      "source_sha256": "d4b0a3f790b6562dc05de1507938d29311810ed5a66c723a67193fe05b5e3549"
+    },
+    {
+      "path": "demo/scripts/train_3d_autoencoder.py",
+      "source_path": "scripts/train_3d_autoencoder.py",
+      "source_sha256": "a1bb65f15a317dcb7c820c1903e19e8651addeb24b1d4eaea37abcde4d937ac6"
+    },
+    {
+      "path": "demo/scripts/distill_3d_dm.py",
+      "source_path": "scripts/distill_3d_dm.py",
+      "source_sha256": "110a5fcff68461d4243bd45ddea63857d4b36b1f69516cc2537f623b81d40cb9"
+    },
+    {
+      "path": "demo/scripts/distill_3d_mtt.py",
+      "source_path": "scripts/distill_3d_mtt.py",
+      "source_sha256": "817db85778d3fb82756a9ea1643fc61f8a200742ebabaf3daa54361c199d52ae"
+    },
+    {
+      "path": "demo/scripts/distill_3d_latent_dd.py",
+      "source_path": "scripts/distill_3d_latent_dd.py",
+      "source_sha256": "a990019c99e48a2d3d2fea89247ff9a43e6824558c2c01e14113252597e8f47a"
+    },
+    {
+      "path": "demo/scripts/summarize_ae_storage_accounting.py",
+      "source_path": "scripts/summarize_ae_storage_accounting.py",
+      "source_sha256": "3e58a75c94ab588d6e8018c57c8956fe1fc64b87a7c773a7e57e6981a733c032"
+    }
+  ]
+}

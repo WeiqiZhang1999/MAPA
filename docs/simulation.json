@@ -2,6 +2,8 @@
   "status": "PASS",
   "date": "2026-10-16",
   "device": "cpu",
+  "entry_point": "demo/examples/run_organmnist3d.py",
+  "reorganized_layout_integration_check": "PASS",
   "simulated": true,
   "not_paper_results": true,
   "python": "3.11.15",
@@ -22,5 +24,5 @@
   "per_prototype_byte_ratio": 4.0,
   "decoder_param_bytes": 42948,
   "initial_run_fix": "Removed the unsupported --no-progress flag from shared baseline arguments and reran the complete pipeline in a fresh directory.",
-  "unvalidated": ["real OrganMNIST3D execution", "CUDA execution", "full paper benchmark", "latent MTT integration"]
+  "unvalidated": ["real OrganMNIST3D execution", "CUDA execution", "full paper benchmark"]
 }
