@@ -13,13 +13,13 @@
   <a href="docs/demo.md">Demo guide</a>
 </p>
 
-<p align="center"><img src="assets/teaser.png" width="900" alt="Class-level matching can concentrate prototypes; MAPA allocates them across intra-class modes."></p>
+<p align="center"><img src="assets/teaser.svg" width="900" alt="Class-level matching can concentrate prototypes; MAPA allocates them across intra-class modes."></p>
 
 MAPA allocates a compact set of latent prototypes across intra-class modes for 3D medical classification. Fixed anchors estimate these modes from real training latents, while class-level matching is preserved.
 
 ## Method
 
-<p align="center"><img src="assets/pipeline.png" width="1000" alt="MAPA pipeline with a frozen autoencoder, fixed anchors, soft allocation and anti-collapse regularization."></p>
+<p align="center"><img src="assets/pipeline.svg" width="1000" alt="MAPA pipeline with a frozen autoencoder, fixed anchors, soft allocation and anti-collapse regularization."></p>
 
 Volumes are encoded into a frozen latent space. MAPA optimizes prototypes through class-level matching and soft allocation, then decodes them for downstream training.
 
