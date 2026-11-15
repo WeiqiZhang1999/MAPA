@@ -8,7 +8,8 @@
 </p>
 
 <p align="center">
-  <a href="#paper">Paper · coming soon</a> &nbsp;|&nbsp;
+  <a href="https://arxiv.org/abs/2611.09956">Paper</a> &nbsp;|&nbsp;
+  <a href="https://arxiv.org/pdf/2611.09956">PDF</a> &nbsp;|&nbsp;
   <a href="#quick-demo">Quick demo</a> &nbsp;|&nbsp;
   <a href="docs/demo.md">Demo guide</a>
 </p>
@@ -42,7 +43,25 @@ The CPU demo uses simulated volumes with the OrganMNIST3D data schema. It checks
 
 ## Paper
 
-**Paper link coming soon.** The arXiv preprint or official conference proceedings link will be added here.
+[**MAPA: Mode-Aware Prototype Allocation for Latent Dataset Distillation in 3D Medical Classification**](https://arxiv.org/abs/2611.09956)<br>
+Weiqi Zhang and Hiroyuki Kubo<br>
+Accepted at **WACV 2027**.
 
-<!-- PAPER_URL: replace the placeholder above and the header Paper link when an arXiv or CVF URL is available. -->
-<!-- CITATION: add the final BibTeX entry when the paper link is available. -->
+[arXiv](https://arxiv.org/abs/2611.09956) · [PDF](https://arxiv.org/pdf/2611.09956)
+
+## Citation
+
+If you find this work useful in your research, please consider citing:
+
+```bibtex
+@misc{zhang2026mapa,
+  title         = {{MAPA}: Mode-Aware Prototype Allocation for Latent Dataset Distillation in {3D} Medical Classification},
+  author        = {Weiqi Zhang and Hiroyuki Kubo},
+  year          = {2026},
+  eprint        = {2611.09956},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CV},
+  note          = {Accepted at WACV 2027},
+  url           = {https://arxiv.org/abs/2611.09956}
+}
+```
